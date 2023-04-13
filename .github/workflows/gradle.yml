@@ -32,8 +32,7 @@ jobs:
       run: chmod +x ./gradlew
     - name: Build with Gradle
       run: ./gradlew build
-#     - name: Test with Gradle
-#       run: ./gradlew test
+
       
   tests: 
     runs-on : ubuntu-latest
@@ -48,9 +47,7 @@ jobs:
       run: chmod +x ./gradlew
     - name: Test with Gradle
       run: ./gradlew test
-#       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
-#       with:
-#         arguments: build
+
         
   
         
